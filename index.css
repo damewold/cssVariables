@@ -21,6 +21,12 @@ input {
   width: 100px;
 }
 
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
 img{
     width: 800px;
     height: 500px;
@@ -29,8 +35,3 @@ img{
     filter: blur(var(--blur));
 }
 
-:root {
-    --base: #ffc600;
-    --spacing: 10px;
-    --blur: 10px;
-  }
