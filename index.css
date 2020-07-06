@@ -27,6 +27,10 @@ input {
   --blur: 10px;
 }
 
+.hl {
+  color: var(--base);
+}
+
 img{
     width: 800px;
     height: 500px;
